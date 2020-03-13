@@ -1,4 +1,4 @@
-#What does this do?
+# What does this do?
 
 This is a REST api to a phonebook application.  It uses Spring Data REST to enable its hypermedia powered API
 which makes for a very succinct and discoverable API.  It is a mere handful of mostly short Java classes that
@@ -10,7 +10,7 @@ This installing uses the in-memory H2 relational database for ease of testing. H
 PostgreSQL, as shown) can be configured.  Please note that specifically with PostgreSQL you will have to
 create the actual tables and sequences needed by the database.
 
-##Installing depencies and running the app
+## Installing depencies and running the app
 
 This is a maven based application, which can be installed and run by issuing the following command in the
 current directory.
